@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant_005
       objectReference: {fileID: 0}
+    - target: {fileID: 852031291737452579, guid: 06d25413d9c3f064eb464341433ab674, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

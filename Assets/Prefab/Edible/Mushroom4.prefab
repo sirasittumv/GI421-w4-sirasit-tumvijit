@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mushroom_001
       objectReference: {fileID: 0}
+    - target: {fileID: 3289464266404052115, guid: 25d2db3cddabd5044b15df3087fb148b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundFlower (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7024344801386700744, guid: 736026f95ebcfc24e807558ccebc616a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7651805766595396978, guid: 736026f95ebcfc24e807558ccebc616a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.25
@@ -153,6 +157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundFlower (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7024344801386700744, guid: 736026f95ebcfc24e807558ccebc616a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7651805766595396978, guid: 736026f95ebcfc24e807558ccebc616a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5
@@ -215,6 +223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundFlower
       objectReference: {fileID: 0}
+    - target: {fileID: 7024344801386700744, guid: 736026f95ebcfc24e807558ccebc616a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7651805766595396978, guid: 736026f95ebcfc24e807558ccebc616a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -276,6 +288,10 @@ PrefabInstance:
     - target: {fileID: 7024344801386700744, guid: 736026f95ebcfc24e807558ccebc616a, type: 3}
       propertyPath: m_Name
       value: GroundFlower (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7024344801386700744, guid: 736026f95ebcfc24e807558ccebc616a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7651805766595396978, guid: 736026f95ebcfc24e807558ccebc616a, type: 3}
       propertyPath: m_LocalPosition.x

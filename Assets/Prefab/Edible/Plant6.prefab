@@ -82,6 +82,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant_007
       objectReference: {fileID: 0}
+    - target: {fileID: 3875710975678281558, guid: 5cb3bda1491785848a7cf6c96e9ae8e0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4504332132160810476, guid: 5cb3bda1491785848a7cf6c96e9ae8e0, type: 3}
       propertyPath: m_LocalScale.y
       value: 1.5
