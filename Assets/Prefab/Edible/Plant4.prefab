@@ -13,6 +13,10 @@ PrefabInstance:
       value: Plant_006
       objectReference: {fileID: 0}
     - target: {fileID: 7155106886293182813, guid: 17aa0fb53545bd244975203542d39ad9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7155106886293182813, guid: 17aa0fb53545bd244975203542d39ad9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -81,6 +85,10 @@ PrefabInstance:
     - target: {fileID: 1315793589245392064, guid: 87c56f7bf213b1d4eb030fc84823d811, type: 3}
       propertyPath: m_Name
       value: Plant_003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315793589245392064, guid: 87c56f7bf213b1d4eb030fc84823d811, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1315793589245392064, guid: 87c56f7bf213b1d4eb030fc84823d811, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -197,6 +205,10 @@ PrefabInstance:
       value: Plant_005
       objectReference: {fileID: 0}
     - target: {fileID: 852031291737452579, guid: 06d25413d9c3f064eb464341433ab674, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 852031291737452579, guid: 06d25413d9c3f064eb464341433ab674, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -288,8 +300,99 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6159426330324312624, guid: 884835f86854db845b41af58422e190b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6663704233175034211}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7861008547458815447, guid: 884835f86854db845b41af58422e190b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7419453773596047667}
+    - targetCorrespondingSourceObject: {fileID: 7861008547458815447, guid: 884835f86854db845b41af58422e190b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8179947414539551873}
+    - targetCorrespondingSourceObject: {fileID: 7861008547458815447, guid: 884835f86854db845b41af58422e190b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7072388985873358563}
   m_SourcePrefab: {fileID: 100100000, guid: 884835f86854db845b41af58422e190b, type: 3}
+--- !u!1 &6579624524352663736 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7861008547458815447, guid: 884835f86854db845b41af58422e190b, type: 3}
+  m_PrefabInstance: {fileID: 3915998876102468975}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &7419453773596047667
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6579624524352663736}
+  m_Mesh: {fileID: 4300000, guid: eb5e2a0f53b2e7a42b593c2e5e4c04f0, type: 2}
+--- !u!23 &8179947414539551873
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6579624524352663736}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c9c189bed4600b54eafdf9a37da8ff9f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-7072388985873358563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6579624524352663736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24fb3eb29eeebd04d87475bbfb984a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MeshCombiner
+  createMultiMaterialMesh: 1
+  combineInactiveChildren: 1
+  deactivateCombinedChildren: 1
+  deactivateCombinedChildrenMeshRenderers: 0
+  generateUVMap: 1
+  destroyCombinedChildren: 0
+  folderPath: Prefabs/CombinedMeshes
+  meshFiltersToSkip: []
 --- !u!4 &7143484885620066143 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6159426330324312624, guid: 884835f86854db845b41af58422e190b, type: 3}
@@ -352,6 +455,10 @@ PrefabInstance:
       value: Plant_004
       objectReference: {fileID: 0}
     - target: {fileID: 7672130304542240355, guid: 78251e7594dd12b498c4f31288e4b332, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672130304542240355, guid: 78251e7594dd12b498c4f31288e4b332, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -376,6 +483,10 @@ PrefabInstance:
     - target: {fileID: 3875710975678281558, guid: 5cb3bda1491785848a7cf6c96e9ae8e0, type: 3}
       propertyPath: m_Name
       value: Plant_007
+      objectReference: {fileID: 0}
+    - target: {fileID: 3875710975678281558, guid: 5cb3bda1491785848a7cf6c96e9ae8e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3875710975678281558, guid: 5cb3bda1491785848a7cf6c96e9ae8e0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -490,6 +601,10 @@ PrefabInstance:
     - target: {fileID: 7553514224504303308, guid: b304b22d1583ce1468ccdc660159bc40, type: 3}
       propertyPath: m_Name
       value: Plant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7553514224504303308, guid: b304b22d1583ce1468ccdc660159bc40, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7553514224504303308, guid: b304b22d1583ce1468ccdc660159bc40, type: 3}
       propertyPath: m_StaticEditorFlags
